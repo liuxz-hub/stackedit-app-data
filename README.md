@@ -1,4 +1,4 @@
-# 一名NJUPT通信研的辣鸡笔记
+# A spicy note from an NJUPT communication graduate student ! ! !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzgyNzE2NF19
+eyJoaXN0b3J5IjpbNDQ1NTA0OTddfQ==
 -->
