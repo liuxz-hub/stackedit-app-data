@@ -44,9 +44,9 @@ busybox 构建根文件系统，还有很多成熟化的根文件系统构建方
 ## 主要工作
 1、准备文件系统内容
 构建或选择合适的根文件系统（如 BusyBox、Debian），包含必要目录和基础命令。
-2、设置启动参数并挂载
+2、设置启动参数并 nfs 挂载
 通过内核参数指定根文件系统位置（如 SD 卡、Flash），确保系统能正确挂载启动。
+3\
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc1NDg3ODksLTIwNzg2NDM3ODhdfQ
-==
+eyJoaXN0b3J5IjpbNTc5ODYyMzEsLTIwNzg2NDM3ODhdfQ==
 -->
