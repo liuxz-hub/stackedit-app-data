@@ -61,10 +61,10 @@ busybox 构建根文件系统，还有很多成熟化的根文件系统构建方
 2 ) . 设置启动参数并 nfs 挂载
 通过内核参数指定根文件系统位置（如 SD 卡、Flash），确保系统能正确挂载启动；
 
-3、初始化运行环境
+3 ) . 初始化运行环境
 创建设备节点，挂载 `/proc`、`/sys` 等虚拟文件系统，启动 `init` 程序。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk4MzA3MjYsLTE0ODM0Njk5NTEsOD
-U3NDE3MDQyXX0=
+eyJoaXN0b3J5IjpbMjMwNzI1MjE4LC0xNDgzNDY5OTUxLDg1Nz
+QxNzA0Ml19
 -->
