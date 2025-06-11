@@ -1,4 +1,4 @@
-#	U-BOOT 移植
+#	一、U-BOOT 移植
 U-Boot 移植是指将 U-Boot（Universal Bootloader）修改、裁剪和适配到你的特定硬件平台（如某款嵌入式开发板、SoC 或定制硬件板）上，使它能够成功启动并加载 Linux 内核或者其他操作系统。
 ## 目的
 目的是在目标硬件上成功启动（跑起来！），简言之：让你的板子“能启动 + 可用 + 可调”。
@@ -27,7 +27,7 @@ U-Boot 移植是指将 U-Boot（Universal Bootloader）修改、裁剪和适配�
 7、配置 USB 支持（如USB OTG/Host）。
 
 
-# Linux 内核移植
+# 二、Linux 内核移植
 Linux内核移植是指将Linux内核适配并运行在新的硬件平台上的过程。以下是关于Linux内核移植的详细解释：
 
 ## 目的
@@ -45,7 +45,7 @@ Linux内核移植是指将Linux内核适配并运行在新的硬件平台上的�
 
 2、操作系统适配：需要考虑与操作系统的版权、功能模块以及软件版本等相关的适配问题。
 
-# 根文件系统移植
+# 三、根文件系统移植
 ## 目的
 根文件系统 ="根"、"文件"、"系统"。根文件系统就是一堆的文件、比如软件（存放在/bin下）、配置文件（存放在/etc下）、库（存放在/lib下）等，这些文件是 Linux 运行所必须的，将他们组合在一起就构成了跟文件系统。
 
@@ -65,5 +65,6 @@ busybox 构建根文件系统，还有很多成熟化的根文件系统构建方
 创建设备节点，挂载 `/proc`、`/sys` 等虚拟文件系统，启动 `init` 程序。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM0Njk5NTEsODU3NDE3MDQyXX0=
+eyJoaXN0b3J5IjpbMTY2OTgzNjEwMSwtMTQ4MzQ2OTk1MSw4NT
+c0MTcwNDJdfQ==
 -->
