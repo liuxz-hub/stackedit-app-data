@@ -1,5 +1,4 @@
-# StackEdit中文版
-StackEdit中文版默认空间
-
-官方地址：https://stackedit.cn
-开源地址：https://gitee.com/mafgwo/stackedit
+# 一名NJUPT通信研的辣鸡笔记
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg1MzgyNzE2NF19
+-->
