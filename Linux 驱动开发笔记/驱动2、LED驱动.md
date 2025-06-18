@@ -5,11 +5,11 @@
 
 2、物理地址：开发版有 512MB 的 DDR3，这 512MB 的内存就是物理地址；
 
-3、经过 MMU 可以讲物理地址映射到 4GB 的虚拟地址
+3、经过 MMU 可以将 512MB 的物理内存映射到 4GB 的虚拟空间上。
 
 
 # 二、LED 设备驱动框架
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA2NDQ3NjAsLTY3NzY3OTYzOSwtMT
-UzMDYyODMxMV19
+eyJoaXN0b3J5IjpbMTA4ODU0MjQ0NCwtNjc3Njc5NjM5LC0xNT
+MwNjI4MzExXX0=
 -->
