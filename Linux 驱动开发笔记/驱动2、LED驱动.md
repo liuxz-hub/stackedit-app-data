@@ -1,5 +1,5 @@
 # 一、地址映射（MMU 的功能之一）
-裸机 LED 灯实验就是操作 6ULL 的寄存器。Linux 驱动开发下，为了方便验证也可以操作寄存器，与裸机区别是不能对寄存器的物理地址直接操作，因为Linux 会使能 MMU ；
+&emsp;&emsp;裸机 LED 灯实验就是操作 6ULL 的寄存器。Linux 驱动开发下，为了方便验证也可以操作寄存器，与裸机区别是不能对寄存器的物理地址直接操作，因为Linux 会使能 MMU ；
 
 1、虚拟地址：对于 32 位的处理器，虚拟地址范围是 2^32=4GB；
 
@@ -11,7 +11,7 @@
 
 # 二、LED 设备驱动框架
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTA4Mzg4OCwtNTQ2MTEzMTc0LDI3OT
-g4MTI2LDEwODg1NDI0NDQsLTY3NzY3OTYzOSwtMTUzMDYyODMx
-MV19
+eyJoaXN0b3J5IjpbLTE1MDI3MzU0NDAsLTkyMTA4Mzg4OCwtNT
+Q2MTEzMTc0LDI3OTg4MTI2LDEwODg1NDI0NDQsLTY3NzY3OTYz
+OSwtMTUzMDYyODMxMV19
 -->
