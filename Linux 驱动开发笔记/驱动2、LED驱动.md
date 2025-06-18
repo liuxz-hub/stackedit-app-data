@@ -5,11 +5,13 @@
 
 2、物理地址：开发版有 512MB 的 DDR3，这 512MB 的内存就是物理地址；
 
-3、经过 MMU 可以将 512MB 的物理内存映射到 4GB 的虚拟空间上。
+3、经过 MMU 可以将 512MB 的物理内存映射到 4GB 的虚拟空间上，所以这也是为什么在Linux 驱动开发下不能对寄存器的物理地址直接操作的原因。
+
+
 
 
 # 二、LED 设备驱动框架
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODU0MjQ0NCwtNjc3Njc5NjM5LC0xNT
-MwNjI4MzExXX0=
+eyJoaXN0b3J5IjpbMjc5ODgxMjYsMTA4ODU0MjQ0NCwtNjc3Nj
+c5NjM5LC0xNTMwNjI4MzExXX0=
 -->
