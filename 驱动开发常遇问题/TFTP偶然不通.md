@@ -3,14 +3,12 @@
 
 · 问题解决：
 &emsp;&emsp;1、首先检查开发版的网络地址是否多设备冲突
-
 &emsp;&emsp;关闭开发版，在 ubuntu 上进行 ping 该网址，若 ping 不通则证明它是唯一的
 
 &emsp;&emsp;2、检查 ubuntu  的网络地址是否多设备冲突
-
-&emsp;&emsp;
+&emsp;&emsp;关闭 ubuntu ，在 Windows 下进行 ping 该网址，若 ping 不通则证明它是唯一的
 
 &emsp;&emsp;3、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTQ4NDgxNywxMjQ2OTI5NDI4XX0=
+eyJoaXN0b3J5IjpbLTI1MTg0NjE5NCwxMjQ2OTI5NDI4XX0=
 -->
