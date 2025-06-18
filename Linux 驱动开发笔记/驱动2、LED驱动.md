@@ -7,11 +7,11 @@
 
 3、经过 MMU 可以将 512MB 的物理内存映射到 4GB 的虚拟空间上，所以这也是为什么在Linux 驱动开发下不能对寄存器的物理地址直接操作的原因。
 
-
+4、ioremap() 函数：获取物理地址对应的虚拟地址
 
 
 # 二、LED 设备驱动框架
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5ODgxMjYsMTA4ODU0MjQ0NCwtNjc3Nj
-c5NjM5LC0xNTMwNjI4MzExXX0=
+eyJoaXN0b3J5IjpbLTU0NjExMzE3NCwyNzk4ODEyNiwxMDg4NT
+QyNDQ0LC02Nzc2Nzk2MzksLTE1MzA2MjgzMTFdfQ==
 -->
