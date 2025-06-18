@@ -3,12 +3,12 @@
 
 · 问题解决：
 &emsp;&emsp;1、首先检查开发版的网络地址是否多设备冲突
-&emsp;&emsp;关闭开发版，在 ubuntu 上进行 ping 该网址，若 ping 不通则证明它是唯一的
+&emsp;&emsp;关闭开发版，在 ubuntu 上进行 ping 该网址，若 ping 不通则证明它是唯一的；
 
 &emsp;&emsp;2、检查 ubuntu  的网络地址是否多设备冲突
-&emsp;&emsp;关闭 ubuntu ，在 Windows 下进行 ping 该网址，若 ping 不通则证明它是唯一的
+&emsp;&emsp;关闭 ubuntu ，在 Windows 下进行 ping 该网址，若 ping 不通则证明它是唯一的；
 
-&emsp;&emsp;3、
+&emsp;&emsp;3、如果有占用，要么修改占用设备的网络地址，更有效的是修改 ubuntu  或开发版的网络地址。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzkwNDQwMCwxMjQ2OTI5NDI4XX0=
+eyJoaXN0b3J5IjpbNDIzMDYyNTM3LDEyNDY5Mjk0MjhdfQ==
 -->
