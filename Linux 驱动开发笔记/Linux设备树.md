@@ -36,19 +36,19 @@
 # 五、特殊节点
 &emsp;&emsp;在根节点`/`中有两个特殊的子节点： `aliases` 和 `chosen`，我们接下来看一下这两个特殊的 子节点。 
 
-**1. aliases 子节点**
+## 1. aliases 子节点
 &emsp;&emsp;单词 aliases 的意思是“别名”，因此 `aliases` 节点的主要功能就是定义别名，定义别名的目的就是了方便访问节点。不过我们一般会在节点命名的时候会加上 `label`，然后通过 `&label` 来访问节点，这样也很方便，而且设备树里面大量的使用 `&label` 的形式来访问节点。
 
-**2. chossen子节点**
+## 2. chossen 子节点
 &emsp;&emsp;`chosen` 节点主要是为了 `uboot` 向 `Linux` 内核传递数据，重点是 `bootargs` 参数。
 
 &emsp;&emsp;那么 `uboot` 是如何向 `Linux` 内核传递 `bootargs` ？经过查看发现 `chosen` 节点包含 `bootargs` 属性，属性值和  `uboot` 中设置的`bootargs`  一致。最终发现在 `uboot` 中 `bootz` 深层调用的函数 `fch_chosen` 中查找 `chosen` 节点，并且在里面添加 `bootargs` 属性，属性值为`bootargs`变量值。
 
 # 六、特殊的属性
-**1.compatible 属性 **
-&emsp;&emsp;compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是一个字符串列表， compatible 属性用于将设备和驱动**绑定**起来。字符串列表用于选择设备所要使用的驱动程序
+## 1. compatible 属性
+&emsp;&emsp;compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是一个字符串列表， compatible 属性用于将设备和驱动 绑定起来。字符串列表用于选择设备所要使用的驱动程序
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjgwMzQxNiwtMTYzNzg3OTE5MywtMT
+eyJoaXN0b3J5IjpbMTA2ODk1MjQwNCwtMTYzNzg3OTE5MywtMT
 I2MjkxMDMxMywxOTg5Mzk5NjM0LC05ODA3MjEyMDAsMTUyNTQ0
 NTM5MiwxMzEyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OT
 AsMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3
