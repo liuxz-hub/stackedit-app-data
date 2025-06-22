@@ -58,10 +58,13 @@
 &emsp;&emsp;这两个属性的值都是无符号 32 位整形， #address-cells 和#size-cells 这两个属性用于描述子节点的地址信息。 #address-cells 属性值决定了子节点 reg 属性中地址信息所占用的字长(32 位)， #size-cells 属性值决定了子节点 reg 属性中长度信息所占的字长(32 位)。
 
 &emsp;&emsp;注意：某一子节点 reg 属性值是根据其父节点设置的address-cells 和 #size-cells 属性来写，例如父节点规定`#address-cells = <1>; #size-cells = <0>;` 则子节点 reg 属性值为`reg = <0x02280000>;`。
+
+# 七、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYwNzg2NzEsMTA2ODk1MjQwNCwtMT
-YzNzg3OTE5MywtMTI2MjkxMDMxMywxOTg5Mzk5NjM0LC05ODA3
-MjEyMDAsMTUyNTQ0NTM5MiwxMzEyNjUxNzY4LC0xMjg5OTcyMz
-QyLC03MDY1NTU0OTAsMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4
-NTQ3MTY3LDE5NjA3MTUzNDgsMTQ0MjQ1Mzc0M119
+eyJoaXN0b3J5IjpbODAxOTYxODQyLC0xMDg2MDc4NjcxLDEwNj
+g5NTI0MDQsLTE2Mzc4NzkxOTMsLTEyNjI5MTAzMTMsMTk4OTM5
+OTYzNCwtOTgwNzIxMjAwLDE1MjU0NDUzOTIsMTMxMjY1MTc2OC
+wtMTI4OTk3MjM0MiwtNzA2NTU1NDkwLDIwNjE5NTA4MzIsOTMy
+MDcxMTkwLDE2ODU0NzE2NywxOTYwNzE1MzQ4LDE0NDI0NTM3ND
+NdfQ==
 -->
