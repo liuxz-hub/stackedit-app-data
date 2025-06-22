@@ -8,15 +8,14 @@
 # 二、DTS、DTB和DTC的关系
 &emsp;&emsp;设备树源文件扩展名为 .dts，但是我们在前面移植 Linux 的时候却一直在使 用 .dtb 文件，那么 DTS 和 DTB 这两个文件是什么关系呢？ DTS 是设备树源码文件， DTB 是将 DTS 编译以后得到的二进制文件。
 
-形象比喻：  .dts 好比是 .c 文件，.dtb 好比是 .o 文件，DTC 工具就是
+形象比喻：  .dts 好比是 .c 文件，.dtb 好比是 .o 文件，DTC 编译工具好比是  gcc 编译器。
 
-将 .c 文件编译为 .o 需要用到 gcc 编译器，那么将 .dts 编译为 .dtb  需要什么工具呢？
 
 
 
 
 **1、加载头文件**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjU4MDgwNSwxNjg1NDcxNjcsMTk2MD
+eyJoaXN0b3J5IjpbLTg0NzkxMDUzNiwxNjg1NDcxNjcsMTk2MD
 cxNTM0OCwxNDQyNDUzNzQzXX0=
 -->
