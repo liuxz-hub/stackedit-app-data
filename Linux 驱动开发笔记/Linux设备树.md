@@ -55,11 +55,11 @@
 &emsp;&emsp;status 属性看名字就知道是和设备状态有关的， status 属性值也是字符串，字符串是设备的状态信息，可选的状态如“okay”、“disable” 、"fail" 和 “fail-sss”。
 
 ## 4.  #address-cells 和 #size-cells 属性
-&emsp;&emsp;这两个属性的值都是无符号 32 位整形， #address-cells 和#size-cells 这两个属性用于描述子节点的地址信息。 #address-cells 属性值决定了子节点 reg 属性中地址信息所占用的字长(32 位)， #size-cells 属性值决定了子节点 reg 属性中长度信息所占的
+&emsp;&emsp;这两个属性的值都是无符号 32 位整形， #address-cells 和#size-cells 这两个属性用于描述子节点的地址信息。 #address-cells 属性值决定了子节点 reg 属性中地址信息所占用的字长(32 位)， #size-cells 属性值决定了子节点 reg 属性中长度信息所占的字长(32 位)。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTgwOTE2OCwxMDY4OTUyNDA0LC0xNj
-M3ODc5MTkzLC0xMjYyOTEwMzEzLDE5ODkzOTk2MzQsLTk4MDcy
-MTIwMCwxNTI1NDQ1MzkyLDEzMTI2NTE3NjgsLTEyODk5NzIzND
-IsLTcwNjU1NTQ5MCwyMDYxOTUwODMyLDkzMjA3MTE5MCwxNjg1
-NDcxNjcsMTk2MDcxNTM0OCwxNDQyNDUzNzQzXX0=
+eyJoaXN0b3J5IjpbLTEyNjY5ODUwNTcsMTA2ODk1MjQwNCwtMT
+YzNzg3OTE5MywtMTI2MjkxMDMxMywxOTg5Mzk5NjM0LC05ODA3
+MjEyMDAsMTUyNTQ0NTM5MiwxMzEyNjUxNzY4LC0xMjg5OTcyMz
+QyLC03MDY1NTU0OTAsMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4
+NTQ3MTY3LDE5NjA3MTUzNDgsMTQ0MjQ1Mzc0M119
 -->
