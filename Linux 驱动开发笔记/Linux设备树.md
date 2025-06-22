@@ -41,10 +41,12 @@
 
 **2. chossen子节点**
 &emsp;&emsp;`chosen` 节点主要是为了 `uboot` 向 `Linux` 内核传递数据，重  
-点是 `bootargs` 参数。那么 `uboot` 是如何向 `Linux` 内核传递
+点是 `bootargs` 参数。那么 `uboot` 是如何向 `Linux` 内核传递 `bootargs` ？
+
+经过查看发现 `chosen` 节点包含 `bootargs` 属性，属性值和  `uboot` 的`bootargs`  一致。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Njc4MzIxOSwxNTI1NDQ1MzkyLDEzMT
-I2NTE3NjgsLTEyODk5NzIzNDIsLTcwNjU1NTQ5MCwyMDYxOTUw
-ODMyLDkzMjA3MTE5MCwxNjg1NDcxNjcsMTk2MDcxNTM0OCwxND
-QyNDUzNzQzXX0=
+eyJoaXN0b3J5IjpbLTE5NDkwMjI0NTgsMTUyNTQ0NTM5MiwxMz
+EyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OTAsMjA2MTk1
+MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3MTUzNDgsMT
+Q0MjQ1Mzc0M119
 -->
