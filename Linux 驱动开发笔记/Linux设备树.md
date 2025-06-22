@@ -1,7 +1,7 @@
 # 一、什么是设备树
 1、前段时间在 u-boot 移植的时候，接触过设备树，但是当时只知道设备树文件 .dtb 是移植 zImage 文件之外另外一个重要文件，但是具体是什么并不是很了解。
 
-2、设备树：设备和树。描述设备树的文件叫做 DTS（Device Tree Source），采用树形结构描述板级设备，也就是开发版上的设备信息，比如CPU数量、内存基地址、IIC接口上接了哪些设备等。
+2、设备树：设备和树。描述设备树的文件叫做 DTS（Device Tree Source），采用树形结构描述板级设备，也就是开发版上的设备信息，比如 CPU 数量、内存基地址、IIC 接口上接了哪些设备等。
 
 
 
@@ -10,5 +10,5 @@
 # 二、驱动程序编写
 **1、加载头文件**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjYwMjUwMV19
+eyJoaXN0b3J5IjpbMTQ0MjQ1Mzc0M119
 -->
