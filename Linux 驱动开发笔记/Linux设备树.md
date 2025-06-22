@@ -33,13 +33,16 @@
 
 &emsp;&emsp;内核启动的时候会解析设备树，然后在`/proc/device-tree/`目录下呈现出来。
 
-# 五、设备树
-在根节点“/”中有两个特殊的子节点： aliases 和 chosen，我们接下来看一下这两个特殊的  
-子节点。  
-43.6.1 aliases 子节点
+# 五、特殊节点
+&emsp;&emsp;在根节点`/`中有两个特殊的子节点： aliases 和 chosen，我们接下来看一下这两个特殊的 子节点。 
+
+**1. aliases 子节点**
+
+
+**2. chossen子节点**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDU0MzY3MCwxNTI1NDQ1MzkyLDEzMT
-I2NTE3NjgsLTEyODk5NzIzNDIsLTcwNjU1NTQ5MCwyMDYxOTUw
-ODMyLDkzMjA3MTE5MCwxNjg1NDcxNjcsMTk2MDcxNTM0OCwxND
-QyNDUzNzQzXX0=
+eyJoaXN0b3J5IjpbLTEzMjcyOTk0NzAsMTUyNTQ0NTM5MiwxMz
+EyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OTAsMjA2MTk1
+MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3MTUzNDgsMT
+Q0MjQ1Mzc0M119
 -->
