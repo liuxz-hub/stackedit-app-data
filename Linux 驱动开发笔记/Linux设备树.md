@@ -32,8 +32,11 @@
 &emsp;&emsp;系统启动以后可以在根文件系统里面看到设备树的节点信息。在`/proc/device-tree/`目下存放着设备树信息。
 
 &emsp;&emsp;内核启动的时候会解析设备树，然后在`/proc/device-tree/`目录下呈现出来。
+
+# 五、设备树
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjY1MTc2OCwtMTI4OTk3MjM0MiwtNz
-A2NTU1NDkwLDIwNjE5NTA4MzIsOTMyMDcxMTkwLDE2ODU0NzE2
-NywxOTYwNzE1MzQ4LDE0NDI0NTM3NDNdfQ==
+eyJoaXN0b3J5IjpbMTUyNTQ0NTM5MiwxMzEyNjUxNzY4LC0xMj
+g5OTcyMzQyLC03MDY1NTU0OTAsMjA2MTk1MDgzMiw5MzIwNzEx
+OTAsMTY4NTQ3MTY3LDE5NjA3MTUzNDgsMTQ0MjQ1Mzc0M119
 -->
