@@ -14,10 +14,9 @@
 `make all`命令是编译 Linux 源码中的所有东西，包括 zImage， .ko 驱动模块以及设备树；
  `make dtbs` 命令是编译设备树。
 
-
-
+# 三、DTS 基本语法
 **1、加载头文件**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNz
-E1MzQ4LDE0NDI0NTM3NDNdfQ==
+eyJoaXN0b3J5IjpbMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4NT
+Q3MTY3LDE5NjA3MTUzNDgsMTQ0MjQ1Mzc0M119
 -->
