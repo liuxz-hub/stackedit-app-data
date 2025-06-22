@@ -10,12 +10,12 @@
 
 形象比喻：  .dts 好比是 .c 文件，.dtb 好比是 .o 文件，DTC 编译工具好比是  gcc 编译器。
 
-
+命令： `make all`命令是编译 Linux 源码中的所有东西，包括 zImage， .ko 驱动模块以及设备树，如果只是编译设备树的话建议使用 `make dtbs` 命令是编译设备树.
 
 
 
 **1、加载头文件**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzkxMDUzNiwxNjg1NDcxNjcsMTk2MD
-cxNTM0OCwxNDQyNDUzNzQzXX0=
+eyJoaXN0b3J5IjpbLTExMzA3MDkwMzEsMTY4NTQ3MTY3LDE5Nj
+A3MTUzNDgsMTQ0MjQ1Mzc0M119
 -->
