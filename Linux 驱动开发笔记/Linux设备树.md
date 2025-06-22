@@ -16,14 +16,20 @@
 
 # 三、DTS 基本语法
 1、设备树也有头文件，扩展名为.dtsi。可以将一款 SOC他的其他所有设备/平台的共有的信息提出来，作为一个通用的.dtsi 文件。
-1、DTS 也是'/'开始←
-2，从/根节点开始描述设备信息←
-3，在/根节点外有一些&cpu0 这样的语句是"追加"。←
-4，节点名字，完整的要求“
-节点名称@单元地址单位地址一般都是外设寄存器的起始地址，有时候是12C的设备地址，或者其他含义，具体节点具体分析。
+
+1、DTS 也是'/'开始
+
+2、从/根节点开始描述设备信息
+
+3、在/根节点外有一些&cpu0 这样的语句是"追加"。
+
+4、节点名字，完整的要求：`node-name@unit-address`
+
+一般都是外设寄存器的起始地址，例如：
+有时候是12C的设备地址，例如： ，或者其他含义，具体节点具体分析。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MzU3MDQ4LC03MDY1NTU0OTAsMjA2MT
-k1MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3MTUzNDgs
-MTQ0MjQ1Mzc0M119
+eyJoaXN0b3J5IjpbLTIwMDA2MTU3MjYsLTcwNjU1NTQ5MCwyMD
+YxOTUwODMyLDkzMjA3MTE5MCwxNjg1NDcxNjcsMTk2MDcxNTM0
+OCwxNDQyNDUzNzQzXX0=
 -->
