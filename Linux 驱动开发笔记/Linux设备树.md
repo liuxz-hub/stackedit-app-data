@@ -46,11 +46,9 @@
 
 # 六、特殊的属性
 **1.compatible 属性 **
-compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是  
-一个字符串列表， compatible 属性用于将设备和驱动绑定起来。字符串列表用于选择设备所要  
-使用的驱动程序
+&emsp;&emsp;compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是一个字符串列表， compatible 属性用于将设备和驱动**绑定**起来。字符串列表用于选择设备所要使用的驱动程序
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjMwNDIzNiwtMTYzNzg3OTE5MywtMT
+eyJoaXN0b3J5IjpbLTc3NjgwMzQxNiwtMTYzNzg3OTE5MywtMT
 I2MjkxMDMxMywxOTg5Mzk5NjM0LC05ODA3MjEyMDAsMTUyNTQ0
 NTM5MiwxMzEyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OT
 AsMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3
