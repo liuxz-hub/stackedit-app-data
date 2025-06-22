@@ -34,14 +34,14 @@
 &emsp;&emsp;内核启动的时候会解析设备树，然后在`/proc/device-tree/`目录下呈现出来。
 
 # 五、特殊节点
-&emsp;&emsp;在根节点`/`中有两个特殊的子节点： aliases 和 chosen，我们接下来看一下这两个特殊的 子节点。 
+&emsp;&emsp;在根节点`/`中有两个特殊的子节点： `aliases` 和 `chosen`，我们接下来看一下这两个特殊的 子节点。 
 
 **1. aliases 子节点**
-
+&emsp;&emsp;单词 aliases 的意思是“别名”，因此 `aliases` 节点的主要功能就是定义别名，定义别名的目的就是了方便访问节点。不过我们一般会在节点命名的时候会加上 `label`，然后通过 `&label` 来访问节点，这样也很方便，而且设备树里面大量的使用 `&label` 的形式来访问节点。
 
 **2. chossen子节点**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjcyOTk0NzAsMTUyNTQ0NTM5MiwxMz
+eyJoaXN0b3J5IjpbLTEzNDE2MzkyMjQsMTUyNTQ0NTM5MiwxMz
 EyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OTAsMjA2MTk1
 MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3MTUzNDgsMT
 Q0MjQ1Mzc0M119
