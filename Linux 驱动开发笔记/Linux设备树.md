@@ -25,11 +25,11 @@
 
 4、节点名字，完整的要求：`node-name@unit-address`
 
-一般都是外设寄存器的起始地址，例如：
-有时候是12C的设备地址，例如： ，或者其他含义，具体节点具体分析。
+一般都是外设寄存器的起始地址，例如：`i2c4:i2c@021f8000`、`uart6:serial@021fc000` 等
+有时候是12C的设备地址，例如：`mag3110@0e` 、`fxls8471@1ed` 等，或者其他含义，具体节点具体分析。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA2MTU3MjYsLTcwNjU1NTQ5MCwyMD
-YxOTUwODMyLDkzMjA3MTE5MCwxNjg1NDcxNjcsMTk2MDcxNTM0
-OCwxNDQyNDUzNzQzXX0=
+eyJoaXN0b3J5IjpbMTU2OTE4Nzg2NywtNzA2NTU1NDkwLDIwNj
+E5NTA4MzIsOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNzE1MzQ4
+LDE0NDI0NTM3NDNdfQ==
 -->
