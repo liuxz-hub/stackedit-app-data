@@ -46,11 +46,17 @@
 
 # 六、特殊的属性
 ## 1. compatible 属性
-&emsp;&emsp;compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是一个字符串列表， compatible 属性用于将设备和驱动 绑定起来。字符串列表用于选择设备所要使用的驱动程序
+&emsp;&emsp;compatible 属性也叫做“兼容性”属性，这是非常重要的一个属性！ compatible 属性的值是一个字符串列表， compatible 属性用于将设备和驱动 绑定起来。字符串列表用于选择设备所要使用的驱动程序。
+
+## 2.  model 属性
+&emsp;&emsp;model 属性值也是一个字符串，一般 model 属性描述设备模块信息。
+
+## 3.  status 属性
+&emsp;&emsp;status 属性看名字就知道是和设备状态有关的， status 属性值也是字符串，字符串是设备的状态信息，可选的状态如“okay”、“disable”
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODk1MjQwNCwtMTYzNzg3OTE5MywtMT
-I2MjkxMDMxMywxOTg5Mzk5NjM0LC05ODA3MjEyMDAsMTUyNTQ0
-NTM5MiwxMzEyNjUxNzY4LC0xMjg5OTcyMzQyLC03MDY1NTU0OT
-AsMjA2MTk1MDgzMiw5MzIwNzExOTAsMTY4NTQ3MTY3LDE5NjA3
-MTUzNDgsMTQ0MjQ1Mzc0M119
+eyJoaXN0b3J5IjpbMTk2OTk1NjQzMSwxMDY4OTUyNDA0LC0xNj
+M3ODc5MTkzLC0xMjYyOTEwMzEzLDE5ODkzOTk2MzQsLTk4MDcy
+MTIwMCwxNTI1NDQ1MzkyLDEzMTI2NTE3NjgsLTEyODk5NzIzND
+IsLTcwNjU1NTQ5MCwyMDYxOTUwODMyLDkzMjA3MTE5MCwxNjg1
+NDcxNjcsMTk2MDcxNTM0OCwxNDQyNDUzNzQzXX0=
 -->
