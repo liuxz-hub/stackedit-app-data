@@ -44,10 +44,11 @@
 
 &emsp;&emsp;那么 `uboot` 是如何向 `Linux` 内核传递 `bootargs` ？经过查看发现 `chosen` 节点包含 `bootargs` 属性，属性值和  `uboot` 中设置的`bootargs`  一致。最终发现在 `uboot` 中 `bootz` 深层调用的函数 `fch_chosen` 中查找 `chosen` 节点，并且在里面添加 `bootargs` 属性，属性值为`bootargs`变量值。
 
-# 六、特殊节点
+# 六、特殊的s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI5MTAzMTMsMTk4OTM5OTYzNCwtOT
-gwNzIxMjAwLDE1MjU0NDUzOTIsMTMxMjY1MTc2OCwtMTI4OTk3
-MjM0MiwtNzA2NTU1NDkwLDIwNjE5NTA4MzIsOTMyMDcxMTkwLD
-E2ODU0NzE2NywxOTYwNzE1MzQ4LDE0NDI0NTM3NDNdfQ==
+eyJoaXN0b3J5IjpbLTE0MTQwNjUyNDksLTEyNjI5MTAzMTMsMT
+k4OTM5OTYzNCwtOTgwNzIxMjAwLDE1MjU0NDUzOTIsMTMxMjY1
+MTc2OCwtMTI4OTk3MjM0MiwtNzA2NTU1NDkwLDIwNjE5NTA4Mz
+IsOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNzE1MzQ4LDE0NDI0
+NTM3NDNdfQ==
 -->
