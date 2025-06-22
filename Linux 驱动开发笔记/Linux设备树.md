@@ -15,21 +15,22 @@
  `make dtbs` 命令是编译设备树。
 
 # 三、DTS 基本语法
-1、设备树也有头文件，扩展名为.dtsi。可以将一款 SOC他的其他所有设备/平台的共有的信息提出来，作为一个通用的.dtsi 文件。
+1、设备树也有头文件，扩展名为 .dtsi。可以将一款 SOC 他的其他所有设备/平台的共有的信息提出来，作为一个通用的 .dtsi 文件。
 
-1、DTS 也是'/'开始
+1、DTS 也是 '/' 开始
 
-2、从/根节点开始描述设备信息
+2、从 / 根节点开始描述设备信息
 
-3、在/根节点外有一些&cpu0 这样的语句是"追加"。
+3、在 / 根节点外有一些 `&cpu0` 这样的语句是"追加"。
 
 4、节点名字，完整的要求：`node-name@unit-address`
 
-一般都是外设寄存器的起始地址，例如：`i2c4:i2c@021f8000`、`uart6:serial@021fc000` 等
-有时候是12C的设备地址，例如：`mag3110@0e` 、`fxls8471@1ed` 等，或者其他含义，具体节点具体分析。
+一般都是外设寄存器的起始地址，例如：`i2c4:i2c@021f8000`、`uart6:serial@021fc000` 等；
+有时候是 I2C 的设备地址，例如：`mag3110@0e` 、`fxls8471@1ed` 等，或者其他含义，具体节点具体分析。
 
+设备树里面常遇到以下所示节点名字：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTE4Nzg2NywtNzA2NTU1NDkwLDIwNj
+eyJoaXN0b3J5IjpbMTUyMDgwOTMzOCwtNzA2NTU1NDkwLDIwNj
 E5NTA4MzIsOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNzE1MzQ4
 LDE0NDI0NTM3NDNdfQ==
 -->
