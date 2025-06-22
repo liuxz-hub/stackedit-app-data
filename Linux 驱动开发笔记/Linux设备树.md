@@ -8,14 +8,16 @@
 # 二、DTS、DTB和DTC的关系
 &emsp;&emsp;设备树源文件扩展名为 .dts，但是我们在前面移植 Linux 的时候却一直在使 用 .dtb 文件，那么 DTS 和 DTB 这两个文件是什么关系呢？ DTS 是设备树源码文件， DTB 是将 DTS 编译以后得到的二进制文件。
 
-形象比喻：  .dts 好比是 .c 文件，.dtb 好比是 .o 文件，DTC 编译工具好比是  gcc 编译器。
+&emsp;&emsp;形象比喻：  .dts 好比是 .c 文件，.dtb 好比是 .o 文件，DTC 编译工具好比是  gcc 编译器。
 
-命令： `make all`命令是编译 Linux 源码中的所有东西，包括 zImage， .ko 驱动模块以及设备树，如果只是编译设备树的话建议使用 `make dtbs` 命令是编译设备树.
+&emsp;&emsp;命令： 
+`make all`命令是编译 Linux 源码中的所有东西，包括 zImage， .ko 驱动模块以及设备树；
+ `make dtbs` 命令是编译设备树。
 
 
 
 **1、加载头文件**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA3MDkwMzEsMTY4NTQ3MTY3LDE5Nj
-A3MTUzNDgsMTQ0MjQ1Mzc0M119
+eyJoaXN0b3J5IjpbOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNz
+E1MzQ4LDE0NDI0NTM3NDNdfQ==
 -->
