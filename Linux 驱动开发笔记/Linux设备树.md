@@ -52,9 +52,12 @@
 &emsp;&emsp;model 属性值也是一个字符串，一般 model 属性描述设备模块信息。
 
 ## 3.  status 属性
-&emsp;&emsp;status 属性看名字就知道是和设备状态有关的， status 属性值也是字符串，字符串是设备的状态信息，可选的状态如“okay”、“disable”
+&emsp;&emsp;status 属性看名字就知道是和设备状态有关的， status 属性值也是字符串，字符串是设备的状态信息，可选的状态如“okay”、“disable” 、"fail" 和 “fail-sss”。
+
+## 4.  #address-cells 和 #size-cells 属性
+&emsp;&emsp;这两个属性的值都是无符号 32 位整形， #address-cells 和#size-cells 这两个属性用于描述子节点的地址信息。 #address-cells 属性值决定了子节点 reg 属性中地址信息所占用的字长(32 位)， #size-cells 属性值决定了子节点 reg 属性中长度信息所占的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTk1NjQzMSwxMDY4OTUyNDA0LC0xNj
+eyJoaXN0b3J5IjpbLTk0OTgwOTE2OCwxMDY4OTUyNDA0LC0xNj
 M3ODc5MTkzLC0xMjYyOTEwMzEzLDE5ODkzOTk2MzQsLTk4MDcy
 MTIwMCwxNTI1NDQ1MzkyLDEzMTI2NTE3NjgsLTEyODk5NzIzND
 IsLTcwNjU1NTQ5MCwyMDYxOTUwODMyLDkzMjA3MTE5MCwxNjg1
