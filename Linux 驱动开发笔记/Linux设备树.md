@@ -27,8 +27,11 @@
 
 &emsp;&emsp;一般都是外设寄存器的起始地址，例如：`i2c4:i2c@021f8000`、`uart6:serial@021fc000` 等；
 &emsp;&emsp;有时候是 I2C 的设备地址，例如：`mag3110@0e` 、`fxls8471@1ed` 等，或者其他含义，具体节点具体分析。
+
+# 四、设备树在系统中的体现
+系统启动以后
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDk4NTQ0MSwtNzA2NTU1NDkwLDIwNj
-E5NTA4MzIsOTMyMDcxMTkwLDE2ODU0NzE2NywxOTYwNzE1MzQ4
-LDE0NDI0NTM3NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyODk5NzIzNDIsLTcwNjU1NTQ5MCwyMD
+YxOTUwODMyLDkzMjA3MTE5MCwxNjg1NDcxNjcsMTk2MDcxNTM0
+OCwxNDQyNDUzNzQzXX0=
 -->
