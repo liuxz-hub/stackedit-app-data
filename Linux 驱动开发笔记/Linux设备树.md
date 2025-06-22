@@ -29,10 +29,11 @@
 &emsp;&emsp;有时候是 I2C 的设备地址，例如：`mag3110@0e` 、`fxls8471@1ed` 等，或者其他含义，具体节点具体分析。
 
 # 四、设备树在系统中的体现
-系统启动以后可以在根文件系统里面看到设备树的节点信息。在/proc/device-tree/目下存放着设备树信息。
-内核启动的时候会解析设备树，然后在/proc/device-tree/目录下呈现出来。
+&emsp;&emsp;系统启动以后可以在根文件系统里面看到设备树的节点信息。在`/proc/device-tree/`目下存放着设备树信息。
+
+&emsp;&emsp;内核启动的时候会解析设备树，然后在`/proc/device-tree/`目录下呈现出来。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTU5MDMxNCwtMTI4OTk3MjM0MiwtNz
+eyJoaXN0b3J5IjpbMTMxMjY1MTc2OCwtMTI4OTk3MjM0MiwtNz
 A2NTU1NDkwLDIwNjE5NTA4MzIsOTMyMDcxMTkwLDE2ODU0NzE2
 NywxOTYwNzE1MzQ4LDE0NDI0NTM3NDNdfQ==
 -->
