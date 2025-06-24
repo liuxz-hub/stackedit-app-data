@@ -48,6 +48,10 @@ pinctrl_hog_1: hoggrp-1 {
 `input_reg`：表示偏移为 0，表示 `UART1_RTS_B`这个 PIN 没有 input 功能。
 
 `mux_mode` 5 表示复用为 `GPIO1-I019`，将其写入 `0x020e 0090`。
+
+`input_val`：就是写入 `input_reg` 寄存器的值。
+
+`0x17059` ：为PIN 的dian'qi'shu'xi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyODA5NDMxLC04MTc2Mjc2MDddfQ==
+eyJoaXN0b3J5IjpbMTQ1MTAxMjg1NSwtODE3NjI3NjA3XX0=
 -->
