@@ -60,8 +60,15 @@ pinctrl_hog_1: hoggrp-1 {
 所以我们只需要全局搜索，设备节点里面的 `compatible` 属性的值，看看在哪个 `.c` 文件里面有，那么此 `.c` 文件就是驱动文件。找到 `pinctrl-imx6u.c` 文件，那么此文件就是 `6UL/6ULL`的 `pinctr` 驱动文件。
 
 
+# 二、gpio 子系统
+
+借助 pinctrl 来设置一个 PIN 的复用和电气属性。
+打开 imx6ull.dtsi:
+
+## 1.1、IOMUXC SNVS 控制器
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE3ODMxNjYsODg4MTMxNTksMTE3Nz
-Q2MTM4OCwxMjk1MjkzNjgyLC0xOTM3NjAwNzYsODk2ODAyMjky
-LC04MTc2Mjc2MDddfQ==
+eyJoaXN0b3J5IjpbMTEzOTk0MzcxMyw4ODgxMzE1OSwxMTc3ND
+YxMzg4LDEyOTUyOTM2ODIsLTE5Mzc2MDA3Niw4OTY4MDIyOTIs
+LTgxNzYyNzYwN119
 -->
