@@ -51,7 +51,7 @@ pinctrl_hog_1: hoggrp-1 {
 
 `input_val`：就是写入 `input_reg` 寄存器的值。
 
-`0x17059` ：为PIN 的dian'qi'shu'xi
+`0x17059` ：为PIN 的电器属性配置寄存器的值。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTAxMjg1NSwtODE3NjI3NjA3XX0=
+eyJoaXN0b3J5IjpbMTAxNTEwMjI5NCwtODE3NjI3NjA3XX0=
 -->
