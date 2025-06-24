@@ -53,8 +53,9 @@ pinctrl_hog_1: hoggrp-1 {
 
 `0x17059` ：为PIN 的电器属性配置寄存器的值。
 
-## 1.5、pincrtl
+## 1.5、pinctrl 驱动
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU0OTgzNDEsODk2ODAyMjkyLC04MT
-c2Mjc2MDddfQ==
+eyJoaXN0b3J5IjpbLTE5Mzc2MDA3Niw4OTY4MDIyOTIsLTgxNz
+YyNzYwN119
 -->
