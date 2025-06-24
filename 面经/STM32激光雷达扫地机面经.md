@@ -25,7 +25,7 @@ STM32F103资源有限，串口数据接收过程中曾出现错位与卡顿问�
 1. 距离调整 PID：控制小车和被跟随物体之间的距离；
 2. 角度调整 PID：控制小车车头的方向；
 
-1)．将目标区域设置为动态窗口，目标点采用中值滤波＋角度平滑处理避免突变；
+1)．将目标区域设置为动态窗口，目标点采用中值滤波＋角度平滑处理，避免突变；
 2)．设置目标"丢失恢复机制"，确保在目标消失后回退至默认行为；
 
 ---
@@ -72,6 +72,6 @@ LD14 雷达通过串口发送固定格式的数据包，每帧包含 12 个点�
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjcwOTQzNSwtMTU1NjcyNzY2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEwNzI0NDExODcsLTE1NTY3Mjc2NiwtMj
+A4ODc0NjYxMl19
 -->
