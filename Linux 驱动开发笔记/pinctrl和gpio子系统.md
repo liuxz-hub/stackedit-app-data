@@ -34,8 +34,10 @@ pinctrl_hog_1: hoggrp-1 {
 };
 ```
 我们在 `imx6ul-pinfunc.h` 中找到:
-`MX6UL PAD UART1 RTS B GPIO1 IO19           0x0090 0x031C 0x0000 0x5 0x0```
-      conf reginput regmux mode<mux reg0x031C0x00000x5AAA
+`MX6UL PAD UART1 RTS B GPIO1 IO19`       &emsp;&emsp;&emsp;&emsp;      `0x0090 0x031C 0x0000 0x5 0x0`
+ `<mux_reg     conf_reg   input_reg    mux_mode   input_val>`
+ `0x0090 &emsp; 0x031C 0x0000 0x5 0x0`
+ <mux reg0x031C0x00000x5AAA
 0x0090
 0x0090 0x031C 0x0000 0x5 0x0←
 input val>←
@@ -45,5 +47,5 @@ conf_reg:0x020e0000+0x031C=0x020e 031C，这个寄存器就是 UART1_RTS_B的电
 便宜为 0，表示 UART1_RTS B这个 PIN 没有input 功能。←input reg,
 5 表示复用为 GPIO1 1019，将其写入 0x020e 0090←m玊仡扆注铒哢佗⑤澳x mode:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MTc2MjYzXX0=
+eyJoaXN0b3J5IjpbLTk1NzMzNDY2NF19
 -->
