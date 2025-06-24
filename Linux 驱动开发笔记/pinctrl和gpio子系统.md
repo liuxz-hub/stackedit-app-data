@@ -39,17 +39,11 @@ pinctrl_hog_1: hoggrp-1 {
 `MX6UL PAD UART1 RTS B GPIO1 IO19`       &emsp;&emsp;&emsp;&emsp;      `0x0090 0x031C 0x0000 0x5 0x0`
 | mux_reg | conf_reg | input_reg | mux_mode  | input_val |
 |---------|----------|-----------|-----------|-----------|
-| `0x0090`  | `0x031C`  | input_reg | mux_mode  | input_val |
-
-
-
-
- `<mux_reg     conf_reg   input_reg    mux_mode   input_val>`
- `0x0090` &emsp; `0x031C` &emsp; `0x0000`&emsp;&emsp;&emsp;` 0x5  `&emsp;&emsp;&emsp; `   0x0`
+| `0x0090`  | `0x031C`  |`0x0000` | `0x5` | `0x0` |
  
-`IOMUXC` 父节点首地址` 0x020e0000`，因此 `UART1_RTS_B` 这个 PIN 的 mux 寄存器地址就是：`0x020e0000+0x0090=0x020e0090`。
+`IOMUXC` 父节点首地址` 0x020e0000`，因此 `UART1_RTS_B` 这个 PIN 的 mux 寄存器地址就是：`0x020e 0000+0x0090=0x020e 0090`。
 
-`conf_reg`：`0x020e0000+0x031C=0x020e 031C`，这个寄存器就是 `UART1_RTS_B` 的电气属性配置寄存器。
+`conf_reg`：`0x020e 0000+0x031C=0x020e 031C`，这个寄存器就是 `UART1_RTS_B` 的电气属性配置寄存器。
 
 `input_reg` ：表示偏移为 0，表示 `UART1_RTS_B`这个 PIN 没有 input 功能。
 
@@ -62,6 +56,6 @@ pinctrl_hog_1: hoggrp-1 {
 ## 1.5、pinctrl 驱动
 &emsp;&emsp;如何找到 IMX6UL对应的 pinctrl 子系统驱动，设备树里面的设备节点是如何根驱动匹配的呢?通过 compatible，此属性是字符串列表。驱动文件里面有一个描述驱动兼容性的东西，当设备树节点的 compatible 属性和驱动里面的兼容性字符串匹配，也就是一模一样的时候就表示设备和驱动匹配了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDE2NjcyMCwxMjk1MjkzNjgyLC0xOT
+eyJoaXN0b3J5IjpbMTczNjMxNDM3NiwxMjk1MjkzNjgyLC0xOT
 M3NjAwNzYsODk2ODAyMjkyLC04MTc2Mjc2MDddfQ==
 -->
