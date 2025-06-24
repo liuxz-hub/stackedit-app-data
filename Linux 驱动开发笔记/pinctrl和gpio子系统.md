@@ -57,11 +57,11 @@ pinctrl_hog_1: hoggrp-1 {
 &emsp;&emsp;如何找到 `IMX6ULL` 对应的 `pinctrl` 子系统驱动，设备树里面的设备节点是如何跟 驱动匹配 的呢?
 &emsp;&emsp;通过 `compatible`跟驱动匹配，此属性是一个字符串列表。驱动文件里面有一个描述驱动兼容性的内容，当设备树节点的 `compatible` 属性和驱动里面的 兼容性字符串 匹配，这时也就表示设备和驱动匹配上了。
 
-所以我们只需要全局搜索，设备节点里面的 ·compatible 属性的值，看看在哪个 .c 文件里面有，那么此.c文件就是驱动文件。找到 pinctrl-imx6u.c 文件，那么此文件就是 6UL/6ULL的 pinctr 驱动文件。
+所以我们只需要全局搜索，设备节点里面的 `compatible` 属性的值，看看在哪个 `.c` 文件里面有，那么此 `.c` 文件就是驱动文件。找到 `pinctrl-imx6u.c` 文件，那么此文件就是 `6UL/6ULL`的 `pinctr` 驱动文件。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQzNzA3NzMsODg4MTMxNTksMTE3Nz
+eyJoaXN0b3J5IjpbLTE2MTE3ODMxNjYsODg4MTMxNTksMTE3Nz
 Q2MTM4OCwxMjk1MjkzNjgyLC0xOTM3NjAwNzYsODk2ODAyMjky
 LC04MTc2Mjc2MDddfQ==
 -->
