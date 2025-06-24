@@ -14,10 +14,12 @@
 
 ### 3. 项目中遇到过哪些困难？是怎么解决的？
 STM32F103资源有限，串口数据接收过程中曾出现错位与卡顿问题
+
 1)．采用UART＋中断方式高效接收串口数据，避免阻塞主程序；
 2)．限制帧率并只采集关键角度区域数据（如0°~180°)，降低处理压力。
 
 2、跟随模式怎么保证了小车永远对着被跟随的物体
+
 1)．将目标区域设置为动态窗口，目标点采用中值滤波＋角度平滑处理，避免突变；
 2)．设置目标"丢失恢复机制"，确保在目标消失后回退至默认行为；
 
@@ -60,6 +62,6 @@ LD14 雷达通过串口发送固定格式的数据包，每帧包含 12 个点�
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI5MTYzMDQsNjkxNDAzMjUsLTE1NT
-Y3Mjc2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTIyNTA1OTY4LDY5MTQwMzI1LC0xNTU2Nz
+I3NjYsLTIwODg3NDY2MTJdfQ==
 -->
