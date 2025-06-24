@@ -44,7 +44,7 @@ pinctrl_hog_1: hoggrp-1 {
 
 `input_reg`：表示偏移为 0，表示 `UART1_RTS_B`这个 PIN 没有 input 功能。
 
-`mo`表示复用为 GPIO1 1019，将其写入 0x020e 0090←m玊仡扆注铒哢佗⑤澳x mode:
+`mux_mode` 5 表示复用为 `GPIO1-I019`，将其写入 `0x020e 0090`。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQzNzQxNl19
+eyJoaXN0b3J5IjpbLTgxNzYyNzYwN119
 -->
