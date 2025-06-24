@@ -45,13 +45,13 @@ pinctrl_hog_1: hoggrp-1 {
 
 `conf_reg`：`0x020e0000+0x031C=0x020e 031C`，这个寄存器就是 `UART1_RTS_B` 的电气属性配置寄存器。
 
-`input_reg`：表示偏移为 0，表示 `UART1_RTS_B`这个 PIN 没有 input 功能。
+`input_reg` ：表示偏移为 0，表示 `UART1_RTS_B`这个 PIN 没有 input 功能。
 
-`mux_mode` 5 表示复用为 `GPIO1-I019`，将其写入 `0x020e 0090`。
+`mux_mode`： 5 表示复用为 `GPIO1-I019`，将其写入 `0x020e 0090`。
 
 `input_val`：就是写入 `input_reg` 寄存器的值。
 
 `0x17059` ：为PIN 的电器属性配置寄存器的值。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTEwMjI5NCwtODE3NjI3NjA3XX0=
+eyJoaXN0b3J5IjpbODk2ODAyMjkyLC04MTc2Mjc2MDddfQ==
 -->
