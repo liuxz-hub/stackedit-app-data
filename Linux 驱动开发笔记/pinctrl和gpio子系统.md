@@ -28,11 +28,14 @@ gpr: iomuxc-gpr@020e4000 {
 ## 1.4、如何添加一个 pin 信息
 ```
 pinctrl_hog_1: hoggrp-1 {
-fsl,pins = <←
-MX6UL PAD UART1 RTS B GPIO1 I0190x17059 /* SD1 CD */
+	fsl,pins = 
+		MX6UL PAD UART1 RTS B GPIO1 I0190x17059 /* SD1 CD */
+	>;
+};
 ```
-:
-我们在 imx6ul-pinfunc.h 中找到:←MX6UL PAD UART1 RTS B GPIO1 IO19conf reginput regmux mode<mux reg0x031C0x00000x5AAA
+我们在 `imx6ul-pinfunc.h` 中找到:
+`MX6UL PAD UART1 RTS B GPIO1 IO19           0x0090 0x031C 0x0000 0x5 0x0```
+      conf reginput regmux mode<mux reg0x031C0x00000x5AAA
 0x0090
 0x0090 0x031C 0x0000 0x5 0x0←
 input val>←
@@ -42,5 +45,5 @@ conf_reg:0x020e0000+0x031C=0x020e 031C，这个寄存器就是 UART1_RTS_B的电
 便宜为 0，表示 UART1_RTS B这个 PIN 没有input 功能。←input reg,
 5 表示复用为 GPIO1 1019，将其写入 0x020e 0090←m玊仡扆注铒哢佗⑤澳x mode:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcyNjI2MjVdfQ==
+eyJoaXN0b3J5IjpbNjQ4MTc2MjYzXX0=
 -->
