@@ -25,7 +25,8 @@ gpr: iomuxc-gpr@020e4000 {
 	reg = <0x020e4000 0x4000>:
 };
 ```
-## 1.4、ru'he
+## 1.4、如何添加一个 pin 信息
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM2NjQwXX0=
+eyJoaXN0b3J5IjpbLTY1OTQxNzY0MF19
 -->
