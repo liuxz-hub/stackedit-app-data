@@ -3,7 +3,7 @@
 ## 一、常见 HR 面试问题及回答建议
 
 ### 1. 请简单介绍一下你的毕业设计。
-我的毕设是基于 STM32 和 LD14 激光雷达的智能避障小车。项目实现了三种主要功能：雷达自主避障、雷达目标跟随、以及蓝牙 APP 遥控。我使用 Keil5 进行代码开发，采用 PID 算法实现速度与转向控制，同时通过 OLED 和上位机进行可视化展示。该设计能在复杂环境下实现小车的自主行驶和避障。
+我的毕设是基于 STM32 和 LD14 激光雷达的智能扫地机器人。项目实现了三种主要功能：雷达自主避障、雷达目标跟随、以及蓝牙 APP 遥控。我使用 Keil5 进行代码开发，采用 PID 算法实现速度与转向控制，同时通过 OLED 和上位机进行可视化展。
 
 ---
 
@@ -60,6 +60,6 @@ LD14 雷达通过串口发送固定格式的数据包，每帧包含 12 个点�
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxNDAzMjUsLTE1NTY3Mjc2NiwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbOTY2ODA5NDM4LDY5MTQwMzI1LC0xNTU2Nz
+I3NjYsLTIwODg3NDY2MTJdfQ==
 -->
