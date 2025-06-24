@@ -54,8 +54,8 @@ pinctrl_hog_1: hoggrp-1 {
 `0x17059` ：为PIN 的电器属性配置寄存器的值。
 
 ## 1.5、pinctrl 驱动
-
+&emsp;&emsp;如何找到 IMX6UL对应的 pinctrl 子系统驱动，设备树里面的设备节点是如何根驱动匹配的呢?通过 compatible，此属性是字符串列表。驱动文件里面有一个描述驱动兼容性的东西，当设备树节点的 compatible 属性和驱动里面的兼容性字符串匹配，也就是一模一样的时候就表示设备和驱动匹配了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc2MDA3Niw4OTY4MDIyOTIsLTgxNz
-YyNzYwN119
+eyJoaXN0b3J5IjpbMTI5NTI5MzY4MiwtMTkzNzYwMDc2LDg5Nj
+gwMjI5MiwtODE3NjI3NjA3XX0=
 -->
