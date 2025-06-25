@@ -35,8 +35,6 @@ pinctrl_hog_1: hoggrp-1 {
 };
 ```
 我们在 `imx6ul-pinfunc.h` 中找到:
-
-`MX6UL PAD UART1 RTS B GPIO1 IO19`       &emsp;&emsp;&emsp;&emsp;      `0x0090 0x031C 0x0000 0x5 0x0`
 | mux_reg | conf_reg | input_reg | mux_mode  | input_val |
 |---------|----------|-----------|-----------|-----------|
 | `0x0090`  | `0x031C`  |`0x0000` | `0x5` | `0x0` |
@@ -68,5 +66,5 @@ pinctrl_hog_1: hoggrp-1 {
 ## 1.1、IOMUXC SNVS 控制器
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTk0MzcxM119
+eyJoaXN0b3J5IjpbMTMyODg0NDI2N119
 -->
