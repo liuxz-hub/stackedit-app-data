@@ -12,9 +12,10 @@
 方案1、在`printf`里加`\n`
 方案2、`fflush(stdout）`刷新标准输出缓冲区，把输出缓冲区里的东西打印到标准输出设备上。
 
-`fflush(stdout);` //刷新一下缓冲区 让它马上输出，在printf之后调用它，就会马上输出了，
-setvbuf(stdout,NULL,IONBF,0);/／如果你嫌上个方法麻烦，就使用这个函数，直接将缓冲区禁止了，它就直接输出了。
+`fflush(stdout);` // 刷新一下缓冲区 让它马上输出，在`printf`之后调用它，就会马上输出了，
+`setvbuf(stdout,NULL,IONBF,0)`;//如果你嫌上个方法麻烦，就使用这个函数，直接将缓冲区禁止了，它就直接输出了。
+
 这两个函数都是有关流缓冲区的，具体使用和说明网上有很多，我只说一下什么是流缓冲区，是做什么用的。操作系统为减少IO操作所以设置了缓冲区．等缓冲区满了再去操作IO．这样是为了提高效率。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU0MzQ4MDNdfQ==
+eyJoaXN0b3J5IjpbLTExNDc1ODU3MDVdfQ==
 -->
